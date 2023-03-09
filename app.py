@@ -46,7 +46,7 @@ async def answer_user(msg: types.Message):
     #         await bot.copy_message(chat_id=user, from_chat_id=ADMIN, message_id=msg.message_id)
     # else:
 
-
+        """LANGUES"""
         til = translator.detect(msg.text)
         print()
         if til.lang == 'en':
